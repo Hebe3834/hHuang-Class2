@@ -17,7 +17,7 @@
 */
 public class Lesson{
   public static void main(String[]args){
-    System.out.print("Hi");
+    System.out.println("Hi");
 
     //for(int i=0; i<10; i++){
       //System.out.println("test");
@@ -29,7 +29,7 @@ public class Lesson{
     //  System.out.println("tests");
   //  }
 
-    for(int x=8; x<=20; x+=2){
+    for(int x=10; x<=20; x+=2){
       System.out.println(x);
     }
 
