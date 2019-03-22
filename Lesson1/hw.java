@@ -31,5 +31,33 @@ public class hw{
         System.out.println(a);
       }
     }
+    System.out.println(" ");
+
+//Prints out the Fibonacci numbers from 0-9999
+    int i=0;
+    int ii=1;
+    int iii=1;
+    for(int f=0; f<9999; f=ii+iii){
+      i=ii;
+      ii=iii;
+      iii=f;
+      System.out.println(f);
+    }
+    System.out.println(" ");
+
+    int b=0;
+    int bb=1;
+    int bbb=1;
+    int w=0;
+    System.out.println(b);
+    System.out.println(bb);
+    System.out.println(bbb);
+    while(w<6666){
+      w=bb+bbb;
+      b=bb;
+      bb=bbb;
+      bbb=w;
+      System.out.println(w);
+    }
   }
 }
