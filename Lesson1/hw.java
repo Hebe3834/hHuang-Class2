@@ -17,21 +17,16 @@ public class hw{
     int t=0;
     for(int n=1; n<=10; n+=1){
       t+=n;
-      if (t>50) {
-        System.out.println(t);
+      System.out.println(t);
       }
-    }
-    System.out.println(" ");
+
     int a=0;
     int v=0;
     while(v<10){
       v+=1;
       a+=v;
-      if (a>50) {
         System.out.println(a);
       }
-    }
-    System.out.println(" ");
 
 //Prints out the Fibonacci numbers from 0-9999
     int i=0;
