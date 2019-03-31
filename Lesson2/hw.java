@@ -8,8 +8,7 @@ public class hw{
     System.out.println("");
 //    Question4(3834);
 //    Question5(5,2,3,4,1);
-    System.out.println("");
-    System.out.println("Sorry for submitting this so late! Also I don't know how to do question 4");
+    System.out.println("Sorry for submitting this so late! Also I don't know how to do questions 4 and 5");
   }
 
 //Given a defined variable of score in the beginning, print out a grade of F is the grade is between 1 to 60 (inclusive),
