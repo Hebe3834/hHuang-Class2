@@ -6,6 +6,10 @@ public class hw{
     System.out.println("");
     Question3(9,7,1);
     System.out.println("");
+//    Question4(3834);
+//    Question5(5,2,3,4,1);
+    System.out.println("");
+    System.out.println("Sorry for submitting this so late! Also I don't know how to do question 4");
   }
 
 //Given a defined variable of score in the beginning, print out a grade of F is the grade is between 1 to 60 (inclusive),
@@ -82,15 +86,41 @@ public class hw{
       }
     }
  }
-
-
+/*
 //Write code that takes a integer in base 10 and turns the number into binary and prints it out in the end.
-
-
-
+  public static void Question4(int n){
+    int[] numbers;
+    numbers = new int[12];
+    if (n>0) {
+      if (n % 2 == 0){
+        n/2;
+        int[12] = 0;
+      }
+      else{
+        n-=1;
+        int[12] = 1;
+      }
+      for (int element: numbers) {
+        System.out.println(element);
+      }
+    }
+  }
+3834
+1917
+958
+479
+239
+119
+59
+29
+14
+7
+3
+1
+111011111010
+*/
 
 //Write a program that takes five integer command-line arguments and prints the median (the third largest one).
-
 
 
 }
