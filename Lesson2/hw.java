@@ -6,9 +6,10 @@ public class hw{
     System.out.println("");
     Question3(9,7,1);
     System.out.println("");
-//    Question4(3834);
+    Question4(3834);
 //    Question5(5,2,3,4,1);
-    System.out.println("Sorry for submitting this so late! Also I don't know how to do questions 4 and 5");
+
+
   }
 
 //Given a defined variable of score in the beginning, print out a grade of F is the grade is between 1 to 60 (inclusive),
@@ -59,6 +60,14 @@ public class hw{
         }
       }
     }
+    /*OTHER METHOD:
+    for(int i=1; i<=100; i++){
+      if i%3==0 && i%4==0){
+        if i%12!0){
+        System.out.println("i");
+      }
+    }
+  }*/
   }
 
 //Write a program that takes three integer command-line arguments a, b, and c and print the number of distinct values (1, 2, or 3) among a, b, and c.
@@ -85,39 +94,14 @@ public class hw{
       }
     }
  }
-/*
+
 //Write code that takes a integer in base 10 and turns the number into binary and prints it out in the end.
-  public static void Question4(int n){
-    int[] numbers;
-    numbers = new int[12];
-    if (n>0) {
-      if (n % 2 == 0){
-        n/2;
-        int[12] = 0;
-      }
-      else{
-        n-=1;
-        int[12] = 1;
-      }
-      for (int element: numbers) {
-        System.out.println(element);
-      }
-    }
-  }
-3834
-1917
-958
-479
-239
-119
-59
-29
-14
-7
-3
-1
-111011111010
-*/
+  public static  Question4(int num){
+   while(num>0){
+     int r = num % 2;
+     num = num/2;
+     //store in array, print array backwards
+   }
 
 //Write a program that takes five integer command-line arguments and prints the median (the third largest one).
 
