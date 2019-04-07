@@ -1,4 +1,4 @@
-/*ARRAYS
+ARRAYS
 java: public boolean to return true/false
       public void to print
       lowercase first word, uppercase second (findPrime)
@@ -8,7 +8,7 @@ java: public boolean to return true/false
       arr[0].length = refers to column
 formula:  int[] arr = new int[10]
           > int[] can be string[], boolean[], etc
-          > allocates 10 spaces: from index 0 to space
+          > allocates 10 spaces: from index 0 to 10
 
   To Insert Values in Arrays:
           > arr[3] = 15
