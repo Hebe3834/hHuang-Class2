@@ -16,12 +16,15 @@ instance - instantiation at a class
 public class Student{
   int grade;
   String first;
-  public Student(){
-    first = "Josh";
+  public Student(String f, int g){
+    grade=g;
+    first=f;
     //instantiation function ^^
-    //gave student1 the first name Josh
   }
-  public String getName(){
-    return first;
+  public int getGrade(){
+    return grade;
+  }
+  public String toString(){
+    return "Studentname:"+first;
   }
 }

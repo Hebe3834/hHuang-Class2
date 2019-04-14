@@ -1,9 +1,8 @@
 public class example{
   public static void main(String[]args){
-    String str=new String();
-    //str is instance of String
-    Student student1=new Student();
+    Student Student1=new Student("Josh", 80);
     //creates an instance of Student
-      System.out.println(student1.getName());
+    System.out.println(Student1.getGrade());
+    System.out.println(Student1);
   }
 }
