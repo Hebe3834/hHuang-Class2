@@ -20,8 +20,8 @@ public class example{
     Student1.setAddress("Chambers St");
     System.out.println("new address:" + Student1.getAddress());
     System.out.println(Student1);
-    Student1.addCourseGrade(1, "Calculus", 98);
-    Student1.addCourseGrade(2, "Algebra 1", 65);
+    Student1.addCourseGrade("Calculus", 98);
+    Student1.addCourseGrade("Algebra 1", 65);
     Student1.printGrades();
     System.out.println(Student1.getAverageGrade());
   }

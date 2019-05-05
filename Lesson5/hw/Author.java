@@ -15,6 +15,9 @@ public class Author{
   }
   public void setEmail(String newEmail){
     email=newEmail;
+  //can also write this.email=newEmail
+  //this refers to this instance, newEmail is new getEmai
+  //for a different author a2, use a2.email
   }
   public char getGender(){
     return gender;

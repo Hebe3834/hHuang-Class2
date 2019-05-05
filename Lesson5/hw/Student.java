@@ -21,9 +21,9 @@ public class Student{
   public String toString(){
     return name + " (" + address + ")";
   }
-  public void addCourseGrade(int num, String course, int grade){
-    Courses[num-1] = course;
-    Grades[num-1] = grade;
+  public void addCourseGrade(String course, int grade){
+    Courses[numCourses] = course;
+    Grades[numCourses] = grade;
     numCourses++;
   }
   public void printGrades(){
