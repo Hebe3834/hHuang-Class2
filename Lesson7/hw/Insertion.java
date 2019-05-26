@@ -7,14 +7,17 @@ public class Insertion{
   }
   public static void insertion(int arr[]){
       for (int i = 1; i<arr.length; i++) {
-         int num = arr[i];
+         int current = arr[i];
          int n = i-1;
-         while((n>=0) && (arr[n]>num)) {
+         while((n>=0) && (arr[n]>current)) {
              arr[n+1] = arr[n];
              n--;
          }
-         arr[n+1] = num;
+         // at this point we've exited, so n is either -1
+         // or it's at the first element where current >= a[n]
+         arr[n+1] = current;
       }
     System.out.println(Arrays.toString(arr));
   }
 }
+// O(n^2)
